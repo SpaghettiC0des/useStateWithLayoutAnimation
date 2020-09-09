@@ -15,4 +15,5 @@ export type StateSetter<S> = {
   spring: SetStateWithLayoutAnimation<S>;
   linear: SetStateWithLayoutAnimation<S>;
   easeInEaseOut: SetStateWithLayoutAnimation<S>;
+  noAnimation: (nextState: SetStateAction<S>) => void;
 };
