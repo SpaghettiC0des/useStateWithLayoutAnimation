@@ -1,12 +1,16 @@
 {
   "name": "use-state-with-layout-animation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "license": "MIT",
   "author": {
     "name": "Karl Marx Lopez",
     "email": "karlmarx.webdev@gmail.com"
   },
+  "keywords": [
+    "react-native",
+    "hooks"
+  ],
   "main": "dist/index.js",
   "module": "dist/index.js",
   "type": "dist/index.d.ts",
