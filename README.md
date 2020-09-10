@@ -1,6 +1,13 @@
 # useStateWithLayoutAnimation
 Abstraction for `React Native`'s `LayoutAnimation` and `useState`
 
+## Install
+`yarn add use-state-with-layout-animation`
+
+Or
+
+`npm install --save use-state-with-layout-animation`
+
 ## Example
 
 [Scan the QR code and run the snack on your `iOS` or `Android` device](https://snack.expo.io/@iamkarlmarx/usestatewithlayoutanimation). (It does not work on web)
