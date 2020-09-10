@@ -31,7 +31,7 @@ const useStateWithLayoutAnimation = <S>(
   const spring = curriedSetState(LayoutAnimation.spring);
   const linear = curriedSetState(LayoutAnimation.linear);
   const easeInEaseOut = curriedSetState(LayoutAnimation.easeInEaseOut);
-  const noAnimation = (nextState: SetStateAction<S>) => setState(nextState);
+  const noAnimation = setState;
 
   const stateSetters = useRef({
     spring,
