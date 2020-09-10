@@ -9,6 +9,9 @@
   },
   "repository": {"url": "https://github.com/karlmarxlopez/useStateWithLayoutAnimation"},
   "keywords": [
+    "react",
+    "react hooks",
+    "animation",
     "react-native",
     "hooks"
   ],
