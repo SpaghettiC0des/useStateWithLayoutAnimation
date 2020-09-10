@@ -1,12 +1,13 @@
 {
   "name": "use-state-with-layout-animation",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "private": false,
   "license": "MIT",
   "author": {
     "name": "Karl Marx Lopez",
     "email": "karlmarx.webdev@gmail.com"
   },
+  "repository": {"url": "https://github.com/karlmarxlopez/useStateWithLayoutAnimation"},
   "keywords": [
     "react-native",
     "hooks"
