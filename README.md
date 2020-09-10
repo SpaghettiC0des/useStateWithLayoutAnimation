@@ -10,7 +10,9 @@ Or
 
 ## Example
 
-[Scan the QR code and run the snack on your `iOS` or `Android` device](https://snack.expo.io/@iamkarlmarx/usestatewithlayoutanimation). (It does not work on web)
+![Animated gif demo](demo/useStateWithLayoutAnimation.gif)
+
+[Download expo client and scan the QR code to run the snack on your `iOS` or `Android` device](https://snack.expo.io/@iamkarlmarx/usestatewithlayoutanimation). (It does not work on web)
 
 ## API
 
