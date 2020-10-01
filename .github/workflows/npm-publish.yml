@@ -1,0 +1,25 @@
+name: Publish to NPM
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  npm-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@master
+      - name: Set up NodeJS
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12'
+      - name: Build package
+        run: |
+          npm i -g yarn
+          yarn install
+          yarn build
+      - name: Publish
+        uses: JS-DevTools/npm-publish@v1
+        with: 
+          token: ${{ secrets.NPM_AUTH_TOKEN }}
