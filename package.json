@@ -1,6 +1,6 @@
 {
   "name": "use-state-with-layout-animation",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "private": false,
   "license": "MIT",
   "author": {
@@ -17,7 +17,7 @@
   ],
   "main": "dist/index.js",
   "module": "dist/index.js",
-  "type": "dist/index.d.ts",
+  "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
