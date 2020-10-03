@@ -1,3 +1,5 @@
+<img alt="npm" src="https://img.shields.io/npm/v/use-state-with-layout-animation?color=%2332c787&style=for-the-badge">
+
 # useStateWithLayoutAnimation
 Abstraction for `React Native`'s `LayoutAnimation` and `useState`
 
