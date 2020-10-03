@@ -7,7 +7,9 @@
     "name": "Karl Marx Lopez",
     "email": "karlmarx.webdev@gmail.com"
   },
-  "repository": {"url": "https://github.com/karlmarxlopez/useStateWithLayoutAnimation"},
+  "repository": {
+    "url": "https://github.com/karlmarxlopez/useStateWithLayoutAnimation"
+  },
   "keywords": [
     "react",
     "react hooks",
@@ -36,6 +38,7 @@
     "@commitlint/cli": "^9.1.2",
     "@commitlint/config-conventional": "^9.1.2",
     "@react-native-community/eslint-config": "^1.1.0",
+    "@testing-library/react-native": "^7.0.2",
     "@types/jest": "^25.2.3",
     "@types/react-native": "^0.63.2",
     "@types/react-test-renderer": "^16.9.2",
@@ -50,7 +53,6 @@
     "prettier": "^2.0.4",
     "react": "16.13.1",
     "react-native": "0.63.2",
-    "react-native-testing-library": "^6.0.0",
     "react-test-renderer": "16.13.1",
     "typescript": "^3.8.3"
   },
