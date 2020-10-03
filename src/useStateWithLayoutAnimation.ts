@@ -17,7 +17,7 @@ const useStateWithLayoutAnimation = <S>(
 
   const [state, setState] = useState<S>(initialValue);
 
-  const curriedSetState = useCallback(
+  const partialSetState = useCallback(
     (animationFn: LayoutAnimationFn) => (
       nextState: SetStateAction<S>,
       onAnimationDidEnd?: OnAnimationDidEndFn,
@@ -27,17 +27,12 @@ const useStateWithLayoutAnimation = <S>(
     },
     [],
   );
-
-  const spring = curriedSetState(LayoutAnimation.spring);
-  const linear = curriedSetState(LayoutAnimation.linear);
-  const easeInEaseOut = curriedSetState(LayoutAnimation.easeInEaseOut);
-  const noAnimation = setState;
-
+  
   const stateSetters = useRef({
-    spring,
-    linear,
-    easeInEaseOut,
-    noAnimation,
+    spring: partialSetState(LayoutAnimation.spring),
+    linear: partialSetState(LayoutAnimation.linear),
+    easeInEaseOut: partialSetState(LayoutAnimation.linear),
+    noAnimation: setState,
   }).current;
 
   return [state, stateSetters];
