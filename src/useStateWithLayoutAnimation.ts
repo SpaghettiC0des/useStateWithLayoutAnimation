@@ -27,11 +27,11 @@ const useStateWithLayoutAnimation = <S>(
     },
     [],
   );
-  
+
   const stateSetters = useRef({
     spring: partialSetState(LayoutAnimation.spring),
     linear: partialSetState(LayoutAnimation.linear),
-    easeInEaseOut: partialSetState(LayoutAnimation.linear),
+    easeInEaseOut: partialSetState(LayoutAnimation.easeInEaseOut),
     noAnimation: setState,
   }).current;
 
